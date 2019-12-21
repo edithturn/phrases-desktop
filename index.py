@@ -117,6 +117,8 @@ class Phrase:
         Label(self.edit_wind, text = 'Old name: ').grid(row = 2, column = 1)
         Entry(self.edit_wind, textvariable = StringVar(self.edit_wind, value = old_name), state = 'readonly').grid(row = 2, column =2)
 
+        # TODO: Add update phrases
+
         #Label(self.edit_wind, text = 'Old Kind: ').grid(row = 2, column = 1)
         new_situation = Entry(self.edit_wind)
         new_situation.grid(row = 3, column = 2)
